@@ -1,8 +1,0 @@
-{
-  "name": "pixelport-gaming-store",
-  "version": "1.0.0",
-  "description": "PixelPort Gaming Store - fictional company website (college final project)",
-  "main": "server.js",
-  "scripts": { "start": "node server.js" },
-  "license": "MIT"
-}

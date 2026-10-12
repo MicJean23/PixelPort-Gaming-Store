@@ -41,3 +41,7 @@ Open the site through `http://localhost:3000`, not by double-clicking the HTML f
 - `hero.jpg`, `gaming-controller.jpg`, `gaming-keyboard.jpg`, `retro-controller.jpg`, `arcade-joystick.jpg` and `neon-controller.jpg` are images supplied by the group. The About-section controller is cropped from the group's email design. The four game covers are simple SVG illustrations of fictional games, and the pixel icons, divider and grid in `public/images/elements/` are SVG elements made for this project.
 - The Campaign page shows only the group's original email design (`public/images/email-design.png`). Its button area links to the 20% off games.
 - No email is sent and no payments are made.
+
+## Browsing Products
+
+Visitors can browse the games and accessories on the Games & Gear page and use the filters to narrow the displayed products. Clicking View details shows more information about an item, including its price and a button for sending an inquiry.

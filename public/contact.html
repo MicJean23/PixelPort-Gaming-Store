@@ -1,33 +1,106 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Contact Us | PixelPort Gaming Store</title><meta name="description" content="Send an inquiry to PixelPort Gaming Store.">
-<link rel="icon" href="images/logo.svg"><link rel="stylesheet" href="css/style.css"></head><body>
-<header class="site-header"><div class="wrap"><a class="logo" href="index.html"><img src="images/logo.svg" alt="PixelPort Gaming Store - home" width="236" height="46"></a>
-<button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>
-<nav class="nav" id="nav" aria-label="Main"><a href="index.html">Home</a><a href="features.html">Features</a><a href="games.html">Games &amp; Gear</a><a href="contact.html" aria-current="page">Contact Us</a></nav></div></header>
-<main>
+<html lang="en">
 
-<section class="section-glow"><div class="wrap"><p class="eyebrow">Contact Us</p><h1>Send an inquiry</h1>
-<div class="two-col" style="align-items:start;margin-top:1.5rem">
-<form id="contact-form" novalidate>
-<p class="alert" id="form-status" role="status" hidden></p>
-<div><label for="name">Name</label><input id="name" name="name" autocomplete="name" required><p class="err" id="err-name"></p></div>
-<div><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required><p class="err" id="err-email"></p></div>
-<div><label for="subject">Subject</label><input id="subject" name="subject" required><p class="err" id="err-subject"></p></div>
-<div><label for="message">Message</label><textarea id="message" name="message" required></textarea><p class="err" id="err-message"></p></div>
-<button class="btn" type="submit">Send message</button></form>
-<aside class="info-box"><h3>Company information</h3><dl>
-<dt>Store</dt><dd>PixelPort Gaming Store (fictional)</dd>
-<dt>Location</dt><dd>Online only, Philippines</dd>
-<dt>Proposed support hours</dt><dd>Monday to Friday, 9:00 AM to 6:00 PM (PHT)</dd>
-<dt>Sample email</dt><dd>support@pixelport.example <span class="note">(sample address, not a real inbox)</span></dd></dl>
-<p class="note">Inquiries are saved privately for the project demo. No email is sent and no purchase is made.</p></aside></div></div></section>
-</main>
-<footer class="site-footer"><div class="wrap">
-<div><img src="images/logo.svg" alt="PixelPort" width="200" height="39"><p>Play more. Spend less. Game on.</p><p>Fictional online store for a college project. Based online in the Philippines.</p></div>
-<div><p><b>Explore</b></p><ul><li><a href="games.html">Games &amp; Gear</a></li><li><a href="features.html">Features</a></li><li><a href="contact.html">Contact Us</a></li><li><a href="campaign.html">Campaign</a></li><li><a href="customers.html">Customer Data</a></li></ul></div>
-<div><p><b>Group</b></p><p>Jean Venzon<br>Jorlyn Pangilinan<br>Ivan Bacani</p><p>Web Publishing and Digital Advertising</p></div>
-</div></footer>
-<script src="js/main.js"></script>
-<script src="js/contact.js"></script>
-</body></html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us | PixelPort Gaming Store</title>
+  <meta name="description" content="Send an inquiry to PixelPort Gaming Store.">
+  <link rel="icon" href="images/logo.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="logo" href="index.html"><img src="images/logo.svg" alt="PixelPort Gaming Store - home" width="236" height="46"></a>
+      <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>
+      <nav class="nav" id="nav" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="features.html">Features</a>
+        <a href="games.html">Games &amp; Gear</a>
+        <a href="contact.html" aria-current="page">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="section-glow">
+      <div class="wrap">
+        <p class="eyebrow">Contact Us</p>
+        <h1>Send an inquiry</h1>
+        <div class="two-col" style="align-items:start;margin-top:1.5rem">
+          <form id="contact-form" novalidate>
+            <p class="alert" id="form-status" role="status" hidden></p>
+            <div>
+              <label for="name">Name</label>
+              <input id="name" name="name" autocomplete="name" required>
+              <p class="err" id="err-name"></p>
+            </div>
+            <div>
+              <label for="email">Email address</label>
+              <input id="email" name="email" type="email" autocomplete="email" required>
+              <p class="err" id="err-email"></p>
+            </div>
+            <div>
+              <label for="subject">Subject</label>
+              <input id="subject" name="subject" required>
+              <p class="err" id="err-subject"></p>
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required></textarea>
+              <p class="err" id="err-message"></p>
+            </div>
+            <button class="btn" type="submit">Send message</button>
+          </form>
+          <aside class="info-box">
+            <h3>Company information</h3>
+            <dl>
+              <dt>Store</dt>
+              <dd>PixelPort Gaming Store</dd>
+              <dt>Location</dt>
+              <dd>Online only, Philippines</dd>
+              <dt>Proposed support hours</dt>
+              <dd>Monday to Friday, 9:00 AM to 6:00 PM (PHT)</dd>
+              <dt>Sample email</dt>
+              <dd>pixelport@gmail.com<span class="note">(sample address, not a real inbox)</span></dd>
+            </dl>
+            <p class="note">Inquiries are saved privately for the project demo. No email is sent and no purchase is made.</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div>
+        <img src="images/logo.svg" alt="PixelPort" width="200" height="39">
+        <p>Play more. Spend less. Game on.</p>
+        <p>Fictional online store for a college project. Based online in the Philippines.</p>
+      </div>
+      <div>
+        <p><b>Explore</b></p>
+        <ul>
+          <li><a href="games.html">Games &amp; Gear</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="campaign.html">Campaign</a></li>
+          <li><a href="customers.html">Customer Data</a></li>
+        </ul>
+      </div>
+      <div>
+        <p><b>Group</b></p>
+        <p>Jean Venzon<br>Jorlyn Pangilinan<br>Ivan Bacani</p>
+        <p>Web Publishing and Digital Advertising</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+
+</html>
